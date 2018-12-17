@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Solar Remote Control</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/adaio.js"></script>
+        <script src="js/send.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="controlpanel">
+
+            <a target="_blank" rel="noopener noreferrer" id="suncalc" href="https://www.suncalc.org">
+                <button>Visit SunCalc.org</button>
+            </a>
+
+            <div id="altitude">
+
+                <input id="output1" type="range" min=0 max=90 width=200>
+                <span id="amount1">0</span>
+            </div>
+            <div id="azimuth">
+                <input id="output2" type="range" min=90 max=270 value=180 valuewidth=200>
+                <span id="amount2">0</span>
+            </div>
+
+            <div id="amount3"></div>
+            <div id="lightlevel"></div>
+
+        </div>
+    </body>
+
+</html>

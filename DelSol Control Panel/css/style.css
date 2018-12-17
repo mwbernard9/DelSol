@@ -1,0 +1,92 @@
+#controlpanel {
+  position: relative;
+  background-image: url("../images/controlpanel.png");
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  width: 800px;
+  height: 800px;
+}
+
+#lightlevel {
+    position: absolute;
+    
+    left: 40px;
+    top: 430px;
+
+    height: 70px;
+    width: 100px;
+
+    background-image: linear-gradient(to right, red , yellow);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+
+    font-size: 24px;
+  	font-family: Arial, Helvetica, sans-serif;
+  	text-align: center;
+}
+
+#altitude {
+
+	position: absolute;
+	top: 250px;
+	left: 180px;
+
+	font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+#azimuth {
+
+  position: absolute;
+  top: 250;
+  left: 550;
+
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+#amount3 {
+
+	position: absolute;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+	top: 385px;
+	left: 180px;
+}
+
+#suncalc {
+
+  position: absolute;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  top: 20;
+  left: 20;
+
+}
+
+button {
+  font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
